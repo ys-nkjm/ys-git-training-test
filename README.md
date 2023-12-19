@@ -8,3 +8,7 @@ Gitの使い方の練習のために作成したリポジトリになります�
 
 ### Forkの仕方
 [HowToFork.md](./public/docs/HowToFork.md)をご確認ください。
+
+### Git Lesson
+
+[lesson/README.md](/public/docs/lesson/README.md)をご確認ください。
