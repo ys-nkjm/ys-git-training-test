@@ -32,6 +32,8 @@ git checkout develop
 
 上記コマンドを実行したら、以下の画像のように`mainブランチ`から`developブランチ`に色と`*`が移っていることが確認できれば、ブランチの切り替えが成功です。
 
+![developブランチに切り替え](/public/images/lesson/step01/untilCreateBranch02.png)
+
 ## `developブランチ`から2つ新しいブランチを作成しましょう。  
 
 `developブランチ`から新しいブランチを作成する際は、以下のコマンドをターミナルに入力します。  
@@ -47,4 +49,7 @@ git checkout -b feature/
 ```
 
 上記コマンドを実行したら、以下の画像のように新しく`feature/check-typeブランチ`が作成されます。  
+
+![feature/check-typeブランチを作成](/public/images/lesson/step01/untilCreateBranch03.png)
+
 もう1つ作成する必要があります。`developブランチ`にチェックアウトしてから、`feature/add-list-itemブランチ`を作成しましょう。
