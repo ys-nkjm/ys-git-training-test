@@ -25,8 +25,8 @@ git branch
 git checkout [branch_name]
 ```
 
+developブランチに切り替えるコマンド
 ```
-# developブランチに切り替えるコマンド
 git checkout develop
 ```
 
@@ -43,9 +43,9 @@ git checkout develop
 git checkout -b [branch_name]
 ```
 
+developブランチからブランチを作成
 ```
-# developブランチからブランチを作成
-git checkout -b feature/
+git checkout -b feature/check-type
 ```
 
 上記コマンドを実行したら、以下の画像のように新しく`feature/check-typeブランチ`が作成されます。  
