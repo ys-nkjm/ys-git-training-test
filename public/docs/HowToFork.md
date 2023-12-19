@@ -1,6 +1,6 @@
 # How to fork
 
-1. このブランチをForkしてください。
+1. リポジトリをForkしてください。
 ![step01-fork](/public/images/fork/step01-fork.png)
 
 2. 好きな Repository name にしましょう。(そのままでもOK)
