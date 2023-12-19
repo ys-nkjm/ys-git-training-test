@@ -7,4 +7,4 @@ Gitの使い方の練習のために作成したリポジトリになります�
 ## How to use
 
 ### Forkの仕方
-[HowToFork.md](./HowToFork.md)をご確認ください。
+[HowToFork.md](./public/docs/HowToFork.md)をご確認ください。
