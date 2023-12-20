@@ -2,3 +2,8 @@
 
 [practice](/public/docs/lesson/practice/README.md)の答えになります！  
 答えを確認しても、その操作の意味をちゃんと理解してから先に進みましょう！
+
+## 各stepの答え
+
+- [ブランチを作成するまで](./step01/untilCreateBranch.md)
+- [マージするまで](./step02/untilMerge.md)
