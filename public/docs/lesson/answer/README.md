@@ -5,5 +5,5 @@
 
 ## 各stepの答え
 
-- [ブランチを作成するまで](./step01/untilCreateBranch.md)
-- [マージするまで](./step02/untilMerge.md)
+1. [ブランチを作成するまで](./step01/untilCreateBranch.md)
+2. [マージするまで](./step02/untilMerge.md)
