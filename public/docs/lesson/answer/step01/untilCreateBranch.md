@@ -10,9 +10,6 @@
 git branch
 ```
 
-上記コマンドを入力することで以下のような表示になります。  
-![ブランチ一覧を表示](/public/images/lesson/step01/untilCreateBranch01.png)
-
 現在ローカルで持っているブランチ一覧が表示されます。  
 他とは異なる色が現在チェックアウトしているブランチになります。  
 `*`のマークも現在チェックアウトしているブランチになります。
@@ -26,13 +23,12 @@ git checkout [branch_name]
 ```
 
 developブランチに切り替えるコマンド
+
 ```
 git checkout develop
 ```
 
-上記コマンドを実行したら、以下の画像のように`mainブランチ`から`developブランチ`に色と`*`が移っていることが確認できれば、ブランチの切り替えが成功です。
-
-![developブランチに切り替え](/public/images/lesson/step01/untilCreateBranch02.png)
+`mainブランチ`から`developブランチ`に色と`*`が移っていることが確認できれば、ブランチの切り替えが成功です。
 
 ## `developブランチ`から2つ新しいブランチを作成しましょう。  
 
@@ -44,12 +40,10 @@ git checkout -b [branch_name]
 ```
 
 developブランチからブランチを作成
+
 ```
 git checkout -b feature/check-type
 ```
 
-上記コマンドを実行したら、以下の画像のように新しく`feature/check-typeブランチ`が作成されます。  
-
-![feature/check-typeブランチを作成](/public/images/lesson/step01/untilCreateBranch03.png)
-
+`feature/check-typeブランチ`が作成されていれば成功です。  
 もう1つ作成する必要があります。`developブランチ`にチェックアウトしてから、`feature/add-list-itemブランチ`を作成しましょう。
