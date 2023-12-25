@@ -37,7 +37,7 @@ git status
 ```
 On branch feature/check-type
 Changes not staged for commit:
-  (use "git add/rm <file>..." to update what will be committed)
+  (use "git add <file>..." to update what will be committed)
   (use "git restore <file>..." to discard changes in working directory)
         modified:   index.js
 
@@ -93,7 +93,8 @@ git commit -m "型をチェックする"
 以下のようなログが流れたら成功です。
 
 ```
-<!-- TODO: ログの内容を記載する -->
+[feature/check-type 5a6d05b] 型をチェックする
+ 1 file changed, 9 insertions(+), 4 deletions(-)
 ```
 
 ## ローカルリポジトリにコミットした内容をリモートリポジトリに`プッシュ`しましょう。
@@ -113,7 +114,19 @@ git push origin HEAD
 以下に似たログが流れたら成功です。
 
 ```
-<!-- TODO: ログの内容を記載する -->
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 455 bytes | 455.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+remote:
+remote: Create a pull request for 'feature/check-type' on GitHub by visiting:
+remote:      https://github.com/〇〇/ys-git-training-fizz-buzz/pull/new/feature/check-type
+remote:
+To github.com:〇〇/ys-git-training-fizz-buzz.git
+ * [new branch]      HEAD -> feature/check-type
 ```
 
 HEADは今作業しているブランチを表しています。
