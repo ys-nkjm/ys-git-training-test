@@ -22,6 +22,6 @@ Gitの使い方の練習のために作成したリポジトリになります�
 
 [HowToClone.md](/public/docs/HowToClone.md)をご確認ください。
 
-## Training
+### Training
 
 [training/README.md](/public/docs/training/README.md)をご確認ください。
