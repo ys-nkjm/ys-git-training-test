@@ -1,6 +1,6 @@
 # answer
 
-[practice](/public/docs/training/practice/README.md)の答えになります！  
+[practice](/public/docs/training/practice)の答えになります！  
 答えを確認しても、その操作の意味をちゃんと理解してから先に進みましょう！
 
 ## 各stepの答え

@@ -4,13 +4,13 @@ Trainingでは、Gitの利用する際に必要な一連の流れを実践方式
 
 ## 構成について
 
-[practice](./practice/README.md)と[answer](./answer/README.md)を用意しています。  
+[practice](./practice)と[answer](./answer)を用意しています。  
 
 ### practiceについて
-[practice](./practice/README.md)では、行って欲しいGit操作について、文章で記載されています。  
+[practice](./practice)では、行って欲しいGit操作について、文章で記載されています。  
 その文章を読んで、実際にGit操作をしてみましょう。
 
 ### answerについて
-どうしてもわからない時は、[answer](./answer/README.md)をご確認ください。  
+どうしてもわからない時は、[answer](./answer)をご確認ください。  
 answerを見て**できた、終わり**とはせず、それぞれの操作がどういった操作をしているのか調べましょう。  
 **※色々やりすぎてリポジトリで取り返しが付かなくなったら、再度forkしてやり直してみても良いです。**

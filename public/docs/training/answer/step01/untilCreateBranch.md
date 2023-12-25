@@ -65,4 +65,4 @@ git checkout -b feature/check-type
 
 ## Practice
 
-[練習問題](../../practice/step01/untilCreateBranch.md) へ戻る
+[step01の練習問題](../../practice/step01/untilCreateBranch.md) へ戻る

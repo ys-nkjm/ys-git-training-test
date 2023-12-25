@@ -13,5 +13,5 @@
 
 ## どうしてもわからなくなったら
 
-[answer](/public/docs/training/answer/README.md)を見に行きましょう！  
+[answer](/public/docs/training/answer)を見に行きましょう！  
 答えを確認しても、その操作の意味をちゃんと理解してから先に進みましょう！

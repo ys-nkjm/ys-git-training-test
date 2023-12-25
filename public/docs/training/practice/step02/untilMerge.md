@@ -59,4 +59,4 @@
 
 ## answer
 
-答えは[answer/step02/untilMerge.md](/public/docs/training/answer/step02/untilMerge.md)を確認してください。
+答えは[こちら](/public/docs/training/answer/step02/untilMerge.md)を確認してください。

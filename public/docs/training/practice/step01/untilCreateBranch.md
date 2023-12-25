@@ -12,4 +12,4 @@
 
 ## answer
 
-答えは[answer/untilCreateBranch.md](/public/docs/training/answer/step01/untilCreateBranch.md)を確認してください。
+答えは[こちら](/public/docs/training/answer/step01/untilCreateBranch.md)を確認してください。

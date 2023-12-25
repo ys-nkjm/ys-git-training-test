@@ -6,7 +6,7 @@
   ①：cloneボタンをクリックします  
   ②：SSHが選択されていることを確認してください。  
   ③：表示されているURLをコピーしてください。
-![step01-fork](/public/images/clone/step01-clone.png)
+![step01-clone](/public/images/clone/step01-clone.png)
 
 2. ターミナルを起動してください。`cd`コマンドを利用して、作成したフォルダまで移動してください。
 
