@@ -9,7 +9,7 @@
 ## 各stepへ
 
 1. [ブランチを作成するまで](./step01/untilCreateBranch.md)
-2. [マージするまで](./step02/untilMerge.md)
+2. [リモートリポジトリにプッシュするまで](./step02/untilMerge.md)
 
 ## どうしてもわからなくなったら
 
