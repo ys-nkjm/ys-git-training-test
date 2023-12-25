@@ -1,4 +1,4 @@
-# マージするまで
+# プルリクエストを作成するまで
 
 各Stepごとに答えを記載します。
 
@@ -16,12 +16,32 @@ git branch
 git checkout feature/check-type
 ```
 
+以下のように表示されていれば成功です。
+
+```
+  develop
+* feature/check-type
+  main
+```
+
 ## 変更したファイルの`状態`を確認しましょう。
 
 変更したファイルの状態を確認するには以下のコマンドを実行してください。
 
 ```
 git status
+```
+
+以下のように表示されれば成功です。
+
+```
+On branch feature/check-type
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   index.js
+
+no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
 ## 変更したファイルを`ステージングエリア`に追加しましょう。
@@ -38,6 +58,16 @@ git add [directory/**/file]
 
 ```
 git add .
+```
+
+`add`コマンドを実行した後に、再度 `git status` で状態を確認してみましょう。  
+以下のように表示されれば、変更したファイルがステージングエリアに追加されています。  
+
+```
+On branch feature/check-type
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   index.js
 ```
 
 ### おまけ：`git restore`について
@@ -75,3 +105,7 @@ git push origin HEAD
 ```
 
 HEADは今作業しているブランチを表しています。
+
+## practice
+
+[練習問題](../../practice/step02/untilMerge.md) へ戻る
