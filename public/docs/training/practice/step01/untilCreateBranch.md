@@ -8,7 +8,7 @@
 
 ## Next Practice
 
-[プルリクエストを作成するまで](../step02/untilMerge.md) →
+[リモートリポジトリにプッシュするまで](../step02/untilMerge.md) →
 
 ## answer
 
