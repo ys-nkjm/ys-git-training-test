@@ -8,7 +8,7 @@
 
 ## Next Practice
 
-[リモートリポジトリにプッシュするまで](../step02/untilMerge.md) →
+[リモートリポジトリにプッシュするまで](../step02/untilPush.md) →
 
 ## answer
 
