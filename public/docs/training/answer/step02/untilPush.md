@@ -133,4 +133,4 @@ HEADは今作業しているブランチを表しています。
 
 ## practice
 
-[step02の練習問題](../../practice/step02/untilMerge.md) へ戻る
+[step02の練習問題](../../practice/step02/untilPush.md) へ戻る
