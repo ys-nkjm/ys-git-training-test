@@ -10,6 +10,7 @@
 
 1. [ブランチを作成するまで](./step01/untilCreateBranch.md)
 2. [リモートリポジトリにプッシュするまで](./step02/untilPush.md)
+3. [プルリクエスト作成からマージするまで](./step03/untilMerge.md)
 
 ## どうしてもわからなくなったら
 

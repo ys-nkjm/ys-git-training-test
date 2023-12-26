@@ -54,8 +54,7 @@
 
 ## Next Practice
 
-<!-- TODO: 作成したらURLを追加する -->
-[次へ]() →
+[プルリクエスト作成からマージするまで](../step03/untilMerge.md) →
 
 ## answer
 
