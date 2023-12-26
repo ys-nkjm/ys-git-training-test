@@ -48,6 +48,10 @@ push後すぐであれば、以下のようなUIが表示されているので�
 ![merge pull request](/public/images/training/step03/answer-step03-05.png)
 ![merge pull request](/public/images/training/step03/answer-step03-06.png)
 
+以下の赤枠部分があれば、マージ完了です。
+
+![merge pull request](/public/images/training/step03/answer-step03-07.png)
+
 ## practice
 
 [step03の練習問題](../../practice/step03/untilMerge.md) へ戻る
