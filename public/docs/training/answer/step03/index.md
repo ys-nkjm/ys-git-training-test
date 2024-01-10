@@ -1,16 +1,22 @@
-# プルリクエスト作成からマージするまで
+# プルリクエスト作成からマージ
 
 各Stepごとに答えを記載します。
+
+<br>
 
 ## Githubで `new pull request` を作成してください。
 
 作成方法は2パターンあります。
+
+<br>
 
 ### push後すぐ作成する場合
 
 push後すぐであれば、以下のようなUIが表示されているので、そこから作成が可能です。
 
 ![プルリクエスト作成01](/public/images/training/step03/answer-step03-01.png)
+
+<br>
 
 ### ブランチから作成
 
@@ -19,6 +25,8 @@ push後すぐであれば、以下のようなUIが表示されているので�
 そこをクリックすることで、新規プルリクエストを作成することができます。
 
 ![プルリクエスト作成02](/public/images/training/step03/answer-step03-02.png)
+
+<br>
 
 ## マージ先を `develop` に変更、プルリクエスト作成完了まで行いましょう。
 
@@ -31,6 +39,8 @@ push後すぐであれば、以下のようなUIが表示されているので�
 
 ![プルリクエスト作成](/public/images/training/step03/answer-step03-04.png)
 
+<br>
+
 ### おまけ - DraftのPRを作成する
 
 実装は完了していないが、相談したい・意見を欲しいという時は `create pull request` 横の「▼」をクリックしてください。  
@@ -39,6 +49,8 @@ push後すぐであれば、以下のようなUIが表示されているので�
 ![DraftPRを作成](/public/images/training/step03/answer-step03-04-01.png)
 
 これでレビューはできるが、マージはできないプルリクエストを作成できます。
+
+<br>
 
 ## Githubの操作で `マージ` してください。
 
@@ -52,6 +64,8 @@ push後すぐであれば、以下のようなUIが表示されているので�
 
 ![merge pull request](/public/images/training/step03/answer-step03-07.png)
 
+<br>
+
 ## practice
 
-[step03の練習問題](../../practice/step03/untilMerge.md) へ戻る
+[step03の練習問題](../../practice/step03/index.md) へ戻る

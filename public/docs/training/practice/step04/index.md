@@ -9,7 +9,7 @@
 
 ## Previous Practice
 
-← [プルリクエスト作成からマージするまで](../step03/untilMerge.md)
+← [プルリクエスト作成からマージ](../step03/untilMerge.md)
 
 ## Next Practice
 

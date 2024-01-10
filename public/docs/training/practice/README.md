@@ -8,9 +8,10 @@
 
 ## 各stepへ
 
-1. [ブランチを作成するまで](./step01/untilCreateBranch.md)
-2. [リモートリポジトリにプッシュするまで](./step02/untilPush.md)
-3. [プルリクエスト作成からマージするまで](./step03/untilMerge.md)
+1. [ブランチを作成](./step01/index.md)
+2. [リモートリポジトリにプッシュ](./step02/index.md)
+3. [プルリクエスト作成からマージ](./step03/index.md)
+4. [ローカルリポジトリにあるブランチの最新化](./step04/index.md)
 
 ## どうしてもわからなくなったら
 

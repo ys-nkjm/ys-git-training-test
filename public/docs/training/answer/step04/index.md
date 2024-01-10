@@ -27,7 +27,7 @@ developブランチをチェックアウトしているか確認します。
 以下のコマンドでdevelopブランチをリモートと同じ状態にできます。
 
 ```
-% git pull
+% git pull origin develop
 ```
 <!-- TODO: 実行結果を記載する -->
 
@@ -92,7 +92,10 @@ Deleted branch feature/check-type (was [commitID]).
 ```
 % git rebase develop
 ```
-<!-- TODO: 実行結果を記載する -->
+以下のような文章が返ってきたらOKです
+```
+Successfully rebased and updated refs/heads/develop
+```
 <br>
 
 ## practice
