@@ -1,4 +1,4 @@
-# ブランチを作成するまで
+# ブランチを作成
 
 以下のことをやってみましょう。
 1. `mainブランチ`をチェックアウトしていることを確認しましょう
@@ -8,8 +8,8 @@
 
 ## Next Practice
 
-[リモートリポジトリにプッシュするまで](../step02/untilPush.md) →
+[リモートリポジトリにプッシュ](../step02/index.md) →
 
 ## answer
 
-答えは[こちら](/public/docs/training/answer/step01/untilCreateBranch.md)を確認してください。
+答えは[こちら](/public/docs/training/answer/step01/index.md)を確認してください。
