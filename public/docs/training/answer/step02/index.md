@@ -1,19 +1,21 @@
-# リモートリポジトリにプッシュするまで
+# リモートリポジトリにプッシュ
 
 各Stepごとに答えを記載します。
+
+<br>
 
 ## `feature/check-type`をチェックアウトしているか確認しましょう。
 
 今どこのブランチにいるかは、以下のコマンドをターミナルに入力することで確認できます。
 
 ```
-git branch
+% git branch
 ```
 
 もし`feature/check-type`をチェックアウトしていなければ以下のコマンドを実行してください。
 
 ```
-git checkout feature/check-type
+% git checkout feature/check-type
 ```
 
 以下のように表示されていれば成功です。
@@ -23,13 +25,14 @@ git checkout feature/check-type
 * feature/check-type
   main
 ```
+<br>
 
 ## 変更したファイルの`状態`を確認しましょう。
 
 変更したファイルの状態を確認するには以下のコマンドを実行してください。
 
 ```
-git status
+% git status
 ```
 
 以下のように表示されれば成功です。
@@ -51,13 +54,13 @@ no changes added to commit (use "git add" and/or "git commit -a")
 下記は特定のファイルのみをステージングエリアに追加します。
 
 ```
-git add [directory/**/file]
+% git add [directory/**/file]
 ```
 
 下記は変更したファイル全てをステージングエリアに追加します。
 
 ```
-git add .
+% git add .
 ```
 
 `add`コマンドを実行した後に、再度 `git status` で状態を確認してみましょう。  
@@ -69,17 +72,20 @@ Changes to be committed:
   (use "git restore --staged <file>..." to unstage)
         modified:   index.js
 ```
+<br>
 
 ### おまけ：`git restore`について
 
 git restoreは`すでにローカルリポジトリに存在するファイル`に対して、変更の取り消しを行います。
 
 ```
-git restore [directory/**/file]
+% git restore [directory/**/file]
 ```
 
 新規で作成したファイルに対しては、実行できません。  
 **(TODO: 新規で作成したファイルの変更を破棄する方法を記載すること。)**
+
+<br>
 
 ## ステージングエリアにある変更ファイルをローカルリポジトリに`コミット`しましょう。
 
@@ -87,7 +93,7 @@ git restore [directory/**/file]
 今回の条件として、 **コミットする際、「型をチェックする」という`コメント`を追加してください。** とあります。以下のように記載することで、コミットにコメントをつけることが可能です。
 
 ```
-git commit -m "型をチェックする"
+% git commit -m "型をチェックする"
 ```
 
 以下のようなログが流れたら成功です。
@@ -96,19 +102,20 @@ git commit -m "型をチェックする"
 [feature/check-type 5a6d05b] 型をチェックする
  1 file changed, 9 insertions(+), 4 deletions(-)
 ```
+<br>
 
 ## ローカルリポジトリにコミットした内容をリモートリポジトリに`プッシュ`しましょう。
 
 以下のコマンドで、ローカルリポジトリからリモートリポジトリにプッシュすることができます。
 
 ```
-git push origin [branch_name]
+% git push origin [branch_name]
 ```
 
 または以下でも問題ありません。
 
 ```
-git push origin HEAD
+% git push origin HEAD
 ```
 
 以下に似たログが流れたら成功です。
@@ -131,6 +138,8 @@ To github.com:〇〇/ys-git-training-fizz-buzz.git
 
 HEADは今作業しているブランチを表しています。
 
+<br>
+
 ## practice
 
-[step02の練習問題](../../practice/step02/untilPush.md) へ戻る
+[step02の練習問題](../../practice/step02/index.md) へ戻る

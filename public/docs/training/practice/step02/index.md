@@ -1,4 +1,4 @@
-# リモートリポジトリにプッシュするまで
+# リモートリポジトリにプッシュ
 
 以下のことをやってみましょう！
 
@@ -50,12 +50,12 @@
 
 ## Previous Practice
 
-← [ブランチを作成するまで](../step01/untilCreateBranch.md)
+← [ブランチを作成](../step01/index.md)
 
 ## Next Practice
 
-[プルリクエスト作成からマージするまで](../step03/untilMerge.md) →
+[プルリクエスト作成からマージ](../step03/index.md) →
 
 ## answer
 
-答えは[こちら](/public/docs/training/answer/step02/untilPush.md)を確認してください。
+答えは[こちら](/public/docs/training/answer/step02/index.md)を確認してください。

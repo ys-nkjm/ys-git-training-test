@@ -1,4 +1,4 @@
-# プルリクエスト作成からマージするまで
+# プルリクエスト作成からマージ
 
 以下のことをやりましょう。
 
@@ -10,7 +10,7 @@
 
 ## Previous Practice
 
-← [リモートリポジトリにプッシュするまで](../step02/untilPush.md)
+← [リモートリポジトリにプッシュ](../step02/index.md)
 
 ## Next Practice
 
@@ -18,5 +18,5 @@
 
 ## answer
 
-答えは[こちら](/public/docs/training/answer/step03/untilMerge.md)を確認してください。
+答えは[こちら](/public/docs/training/answer/step03/index.md)を確認してください。
 
