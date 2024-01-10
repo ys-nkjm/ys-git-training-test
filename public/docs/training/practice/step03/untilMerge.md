@@ -14,8 +14,7 @@
 
 ## Next Practice
 
-<!-- TODO: 作成したらURLを追加する -->
-[次へ]() →
+[ローカルリポジトリにあるブランチの最新化](../step04/index.md) →
 
 ## answer
 
