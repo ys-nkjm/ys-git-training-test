@@ -11,7 +11,9 @@ developブランチをチェックアウトしているか確認します。
 ```
 % git branch
 ```
+
 以下の一覧が返ってきます。developに「*」がついていればOKです。
+
 ```
 * develop
   feature/check-type
@@ -30,6 +32,17 @@ developブランチをチェックアウトしているか確認します。
 % git pull origin develop
 ```
 <!-- TODO: 実行結果を記載する -->
+
+#### おまけ
+
+mainブランチやdevelopブランチなど、共通のブランチに対して
+
+```
+% git pull
+```
+
+だけでも最新の状態にする方法があります。  
+詳しくは[upstream](./upstream.md)をご確認ください。
 
 <br>
 
@@ -54,10 +67,13 @@ developブランチをチェックアウトしているか確認します。
 ## マージして不要となった`feature/check-type`ブランチをローカルリポジトリから削除してください。
 
 以下のコマンドを実行して削除してください。
+
 ```
 % git branch -D feature/check-type
 ```
+
 以下のような文章が返ってきます。
+
 ```
 Deleted branch feature/check-type (was [commitID]).
 ```
@@ -92,7 +108,9 @@ Deleted branch feature/check-type (was [commitID]).
 ```
 % git rebase develop
 ```
+
 以下のような文章が返ってきたらOKです
+
 ```
 Successfully rebased and updated refs/heads/develop
 ```
