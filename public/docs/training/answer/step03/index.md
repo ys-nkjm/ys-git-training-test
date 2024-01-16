@@ -2,42 +2,27 @@
 
 各Stepごとに答えを記載します。
 
-<br>
-
 ## Githubで `new pull request` を作成してください。
 
-作成方法は2パターンあります。
+pushした後リポジトリのページにアクセスすると、以下の画像のように表示されていると思います。
 
-<br>
+![リポジトリ画面](/public/images/training/step03/image-01.png)
 
-### push後すぐ作成する場合
-
-push後すぐであれば、以下のようなUIが表示されているので、そこから作成が可能です。
-
-![プルリクエスト作成01](/public/images/training/step03/answer-step03-01.png)
-
-<br>
-
-### ブランチから作成
-
-`branches` のタブから、ブランチ一覧を表示します。  
-プルリクエストを作成したいブランチの３点リーダーをクリックすると `New pull request` の項目があります。  
-そこをクリックすることで、新規プルリクエストを作成することができます。
-
-![プルリクエスト作成02](/public/images/training/step03/answer-step03-02.png)
+`new pull request` をクリックすると、プルリクエストを作成する画面が表示されます。
 
 <br>
 
 ## マージ先を `develop` に変更、プルリクエスト作成完了まで行いましょう。
 
-画像赤枠の箇所から、developに選択しましょう。
+以下の画像のように、マージ先のブランチを `develop` に変更してください。
 
-![ブランチ変更](/public/images/training/step03/answer-step03-03.png)
+![ブランチ変更](/public/images/training/step03/image-03.png)
 
-タイトルや説明は記載してあればOKとします。  
-内容を記載できたら、`create pull request` でプルリクエストを作成します。
+<br>
 
-![プルリクエスト作成](/public/images/training/step03/answer-step03-04.png)
+タイトルと説明欄を埋めて `create pull request` ボタンをクリックして、プルリクエストを作成します。
+
+![プルリクエストを作成](/public/images/training/step03/image-04.png)
 
 <br>
 
@@ -46,7 +31,7 @@ push後すぐであれば、以下のようなUIが表示されているので�
 実装は完了していないが、相談したい・意見を欲しいという時は `create pull request` 横の「▼」をクリックしてください。  
 `create draft pull request` を選択して、 `draft pull request` をクリックしてください。
 
-![DraftPRを作成](/public/images/training/step03/answer-step03-04-01.png)
+![DraftPRを作成](/public/images/training/step03/image-05.png)
 
 これでレビューはできるが、マージはできないプルリクエストを作成できます。
 
@@ -54,15 +39,36 @@ push後すぐであれば、以下のようなUIが表示されているので�
 
 ## Githubの操作で `マージ` してください。
 
-プルリクエストの作成が完了したら `merge pull request` をクリックしてください。  
+プルリクエストの作成が完了したら `merge pull request` をクリックしてください。
+
+![Merge pull request](/public/images/training/step03/image-06.png)
+
+<br>
+
 マージするタイトルやマージ先に問題がないことを確認できたら `confirm merge` をクリックしてください。
 
-![merge pull request](/public/images/training/step03/answer-step03-05.png)
-![merge pull request](/public/images/training/step03/answer-step03-06.png)
+![Confirm merge](/public/images/training/step03/image-07.png)
 
-以下の赤枠部分があれば、マージ完了です。
+<br>
 
-![merge pull request](/public/images/training/step03/answer-step03-07.png)
+以下の画像のように `Merge` となっていれば、成功です。
+
+![merge pull request](/public/images/training/step03/image-08.png)
+
+<br>
+
+## リモートにある作業ブランチを削除しましょう
+
+マージしたブランチは残さず、削除していきましょう。  
+`Delete Branch` ボタンをクリックしてください。
+
+![ブランチ削除-01](/public/images/training/step03/image-09.png)
+
+<br>
+
+以下の画像のような表示になっていれば、ブランチの削除は完了です
+
+![ブランチ削除-02](/public/images/training/step03/image-10.png)
 
 <br>
 
