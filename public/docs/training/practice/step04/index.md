@@ -13,8 +13,7 @@
 
 ## Next Practice
 
-<!-- TODO: 作成したらURLを追加する -->
-[次へ]() →
+[復習 - 修正からdevelopにマージまで行う](../step05/index.md) →
 
 ## answer
 
