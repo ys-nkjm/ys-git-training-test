@@ -1,6 +1,6 @@
 # ys-git-training-fizz-buzz
 
-Gitの使い方の練習のために作成したリポジトリになります。  
+Gitの使い方の練習のために作成したリポジトリになります。(※ α版)  
 こちらのリポジトリは、forkさえすれば壊しても問題ありません。  
 もしGit操作に失敗した場合は、再度このリポジトリをForkしてもらえれば0からやり直せます。
 
@@ -16,12 +16,12 @@ Gitの使い方の練習のために作成したリポジトリになります�
 
 ### リポジトリをFork
 
-[HowToFork.md](./public/docs/HowToFork.md)をご確認ください。
+[HowToFork.md](/public/docs/HowToFork.md)をご確認ください。
 
 ### リモートリポジトリをClone
 
 [HowToClone.md](/public/docs/HowToClone.md)をご確認ください。
 
-### Training
+### Workbook
 
-[training/README.md](/public/docs/training/README.md)をご確認ください。
+[Workbook/README.md](/public/docs/Workbook/README.md)をご確認ください。
