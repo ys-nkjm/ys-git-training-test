@@ -176,6 +176,5 @@ function App() {
       </StyledList>
     </StyledContainer>
   );
-}
 
 export default App;
